@@ -33,14 +33,15 @@ def initial_round
 end
 
 def hit?(current_total)
-  puts "Type 'h' to hit or 's' to stay"
+  prompt_user
   input = get_user_input
   if input == 'h'
        current_total += deal_card
   elsif input == 's'
    current_total
  else
-   prompt_user
+   invalid_command
+   return prompt_user
   end
 end
 

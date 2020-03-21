@@ -33,7 +33,7 @@ def initial_round
 end
 
 def hit?(current_total)
-  puts 
+  puts "Type 'h' to hit or 's' to stay"
   input = get_user_input
   if input == 'h'
        current_total += deal_card

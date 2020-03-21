@@ -42,7 +42,6 @@ def hit?(current_total)
  else
    prompt_user
   end
-  binding.pry
 end
 
 def invalid_command

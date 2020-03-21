@@ -17,7 +17,7 @@ def prompt_user
 end
 
 def get_user_input
-gets.chomp
+method = gets.chomp
 end
 
 def end_game(n)
@@ -46,6 +46,8 @@ end
 
 def invalid_command
   puts "Please enter a valid command"
+  prompt_user
+  get_user_input
 end
 
 #####################################################

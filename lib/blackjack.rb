@@ -40,7 +40,7 @@ def hit?(current_total)
   elsif input == 's'
    current_total
  else
-   invalid_command
+   prompt_user
   end
   binding.pry
 end

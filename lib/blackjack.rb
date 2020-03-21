@@ -33,8 +33,6 @@ def initial_round
 end
 
 def hit?(user_hand)
-  # code hit? here
-  #puts user_hand
   prompt_user
   user_input = get_user_input
 
